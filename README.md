@@ -1,6 +1,6 @@
-# Web API IV Guided Project
+# Node Heroku Deployment
 
-Guided project for **Web API IV** module.
+Guided project for **Node Heroku Deployment** module.
 
 In this project we will learn how to deploy a Web API to `heroku`'s free tier offering.
 
@@ -14,13 +14,13 @@ Please **fork** this repository and follow along **using your fork** as the inst
 
 ## Starter Code
 
-The starter code for this project can be found in [this repository](https://github.com/LambdaSchool/webapi-iv-guided).
+The starter code for this project can be found in [this repository](https://github.com/LambdaSchool/node-heroku-deployment-guided).
 
 ## How to Contribute
 
-- clone the [starter code](https://github.com/LambdaSchool/webapi-iv-guided).
+- clone the [starter code](https://github.com/LambdaSchool/node-heroku-deployment-guided).
 - create a solution branch: `git checkout -b solution`.
-- add this repository as a remote: `git remote add solution https://github.com/LambdaSchool/webapi-iv-guided-solution`
+- add this repository as a remote: `git remote add solution https://github.com/LambdaSchool/node-heroku-deployment-guided-solution`
 - pull from this repository's `master` branch into the `solution` branch in your local folder `git pull solution master:solution --force`.
 
 A this point you should have a `master` branch pointing to the student's repository and a `solution` branch with the latest changes added to the solution repository.
