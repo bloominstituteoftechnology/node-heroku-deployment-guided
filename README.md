@@ -42,8 +42,6 @@ The server is not configure to run when typing `yarn server` or `npm run server`
 
 - test it from a terminal.
 
-**wait for students to catch up, use a `yes/no` poll to let students tell you when they are done**
-
 When we deploy the API, `heroku` will look for a "start" script that uses `node` to run the server. We need to add that to `package.json`.
 
 ### You Do (estimated 2m to complete)
@@ -97,8 +95,6 @@ The reason es that most systems will have configuration secrets added to that fi
 - **stop the server** and restart it again, or the change to `.env` will not be detected.
 - the API should be using port 4000 now as specified in `.env`.
 
-**wait for students to catch up, use a `yes/no` poll to let students tell you when they are done**
-
 ## Setup Continuous Deployment from GitHub
 
 - verify that all students have created a free account.
@@ -112,10 +108,6 @@ The reason es that most systems will have configuration secrets added to that fi
 - on the top right, click `Open App`.
 
 The deployment succeeded, but opening the App fails because the fork on GitHub still have the old code without the dynamic port and new `start` script.
-
-**Do a review of all the steps we went through in order to create the application and connect it to GitHub.**
-
-**wait for students to catch up, use a `yes/no` poll to let students tell you when they are done**
 
 Our application displays `Application Error` and information on how to open the logs. We can fix it by pushing our changes to the master branch on GitHub.
 
@@ -134,8 +126,6 @@ An example:
   "message": "to all students for successfully deploying an empty array for the world to see and marvel"
 }
 ```
-
-**wait for students to catch up, use a `yes/no` poll to let students tell you when they are done**
 
 ## Add an Environment Variable on Heroku
 
@@ -174,5 +164,3 @@ Now we are going to add that configuration variable on Heroku.
 - refresh the application.
 
 Note that the environment variable on `heroku` overrides the value in code and the value in our local `.env` file. This could be used to store API keys, database connection information and any other secrets in a more secure manner.
-
-**wait for students to catch up, use a `yes/no` poll to let students tell you when they are done**
